@@ -8,8 +8,8 @@ include 'PHPExcel/IOFactory.php';
 //$file = $_POST["file"];
 //$sheet= $_POST["sheet"];
 
-$file = "data.xls";
-$sheet = "VEHICLE";
+$file = $_POST["file"];
+$sheet = $_POST["sheet"];
 
 
 $inputFileName = './'.$file;
